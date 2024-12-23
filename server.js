@@ -28,7 +28,7 @@ const PORT = process.env.PORT || 4001;
 
 app.use(
   cors({
-    origin: "https://ecommerce-task-44eo.vercel.app/",
+    origin: "https://ecommerce-task-44eo.vercel.app",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
